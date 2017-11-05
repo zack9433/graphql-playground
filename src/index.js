@@ -32,7 +32,6 @@ const query = `
     }
 `;
 
-
 // const query = `
 //     {
 //         author(id: "77e2448a"){
@@ -43,7 +42,5 @@ const query = `
 // `;
 
 graphql(schema, query).then(result => {
-
-    console.log(JSON.stringify(result, null, 2));
-
+  console.log(JSON.stringify(result, null, 2));
 });

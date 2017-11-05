@@ -4,12 +4,12 @@ import { fakeDatabase } from '../../FakeDatabase';
 export default {
   addPost: {
     type: Post,
-    description: "Create a new blog post",
+    description: 'Create a new blog post',
     args: {
-        post: { type: PostInputType }
+      post: { type: PostInputType }
     },
     resolve: function(root, { post }) {
-        return fakeDatabase.addNewBlogPost(post);
+      return fakeDatabase.addNewBlogPost(post);
     }
   }
 };

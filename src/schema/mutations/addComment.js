@@ -4,12 +4,12 @@ import { fakeDatabase } from '../../FakeDatabase';
 export default {
   addComment: {
     type: Comment,
-    description: "Create a new comment for a blog post",
+    description: 'Create a new comment for a blog post',
     args: {
-        comment: { type: CommentInputType }
+      comment: { type: CommentInputType }
     },
     resolve: function(root, { comment }) {
-        return fakeDatabase.addNewComment(comment);
+      return fakeDatabase.addNewComment(comment);
     }
   }
 };
