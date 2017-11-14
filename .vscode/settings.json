@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.javascriptEnable": ["javascript", "javascriptreact"],
+  "prettier.bracketSpacing": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.printWidth": 120
+}
